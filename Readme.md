@@ -6,10 +6,26 @@ metrics.  This is in contrast to most review sites which are based on user
 reviews that are often subjective, biased and not representative of the
 population.
 
+## TL;DR
+
+Based on % of revenue spent on benefits and average rate of complaints, the best
+insurer in each state are:
+
+| State | Best Insurer |
+| ----- | ------------ |
+| NSW | [HBF][HBF] |
+| VIC | [HBF][HBF] |
+| QLD | [Mildura][Mildura] |
+| SA | [Mildura][Mildura] |
+| WA | [Mildura][Mildura] |
+| TAS | [QCH][QCH] |
+| ACT | [Mildura][Mildura] |
+| NT | [TFH][TFH] |
+
 ## Percentage of revenue spent on benefits (2022)
 
-This is calculated by dividing revenue of each insurer by the amount of benefits
-paid out. The higher the number, the better.
+This is calculated by dividing benefits paid out by the premium revenue of each
+insurer. The higher the percentage, the better.
 
 Here is the summary of the results nation wide and per state:
 
@@ -21,9 +37,9 @@ Here is the summary of the results nation wide and per state:
 | QLD | [CBHSCH][CBHSCH] (116.1) | [Mildura][Mildura] (109.8) | CDH (102.7) |
 | SA | [Mildura][Mildura] (266.2) | Transport (99.6) | [CBHSCH][CBHSCH] (99.0) |
 | WA | [CBHSCH][CBHSCH] (126.3) | [Mildura][Mildura] (109.8) | HCF (99.3) |
-| TAS | [CBHSCH][CBHSCH] (135.5) | QCH (135.0) | CDH (97.5) |
+| TAS | [CBHSCH][CBHSCH] (135.5) | [QCH][QCH] (135.0) | CDH (97.5) |
 | ACT | [CBHSCH][CBHSCH] (219.4) | [Mildura][Mildura] (171.5) | RBHS (91.6) |
-| NT | TFH (94.6) | Transport (86.6) | HCF (86.4) |
+| NT | [TFH][TFH] (94.6) | Transport (86.6) | HCF (86.4) |
 
 <details>
 
@@ -66,19 +82,59 @@ Notes:
 | Peoplecare | 83.6 | 81.5 | 86.3 | 89.0 | 76.1 | 78.8 | 82.0 | 75.2 | 50.1 |
 | Phoenix | 81.6 | 80.1 | 82.6 | 92.2 | 79.3 | 75.7 | 71.2 | 41.3 | 48.6 |
 | [Police][Police] | 86.7 | 87.4 | 87.0 | 89.3 | 85.7 | 87.0 | 81.5 | 69.0 | 78.7 |
-| QCH | 83.6 | 80.2 | 71.0 | 84.2 | 73.6 | 65.9 | 135.0 | 57.6 | 53.6 |
+| [QCH][QCH] | 83.6 | 80.2 | 71.0 | 84.2 | 73.6 | 65.9 | 135.0 | 57.6 | 53.6 |
 | QTUH | 83.4 | 75.0 | 68.5 | 84.5 | 65.9 | 59.0 | 80.3 | 47.6 | 23.7 |
 | RBHS | 75.2 | 77.5 | 72.3 | 69.9 | 71.0 | 53.9 | 73.6 | 91.6 | 41.1 |
 | St Luke's | 83.9 | 76.6 | 76.6 | 90.5 | 75.2 | 69.9 | 84.5 | 81.0 | 43.9 |
-| TFH | 84.5 | 83.2 | 84.4 | 98.9 | 86.7 | 96.3 | 85.6 | 75.2 | 94.6 |
+| [TFH][TFH] | 84.5 | 83.2 | 84.4 | 98.9 | 86.7 | 96.3 | 85.6 | 75.2 | 94.6 |
 | Transport | 84.4 | 74.1 | 84.4 | 94.7 | 99.6 | 83.4 | 84.9 | 47.4 | 86.6 |
 | Westfund | 78.5 | 73.7 | 84.0 | 83.4 | 86.1 | 85.8 | 75.0 | 75.4 | 32.1 |
 
 </details>
 
-## References
+## Average number of complains (2022)
+
+The lower the number, the better.
+
+| Insurer | Avg. # of complaints per 100K member |
+| ------- | -----------------------------------  |
+| [ACA][ACA] | 0.0 |
+| NHBA | 0.0 |
+| RBHS | 0.0 |
+| [Mildura][Mildura] | 2.8 |
+| CUA | 7.4 |
+| QTUH | 7.6 |
+| [Police][Police] | 7.6 |
+| HCI | 8.5 |
+| Defence | 9.5 |
+| Peoplecare | 11.3 |
+| [QCH][QCH] | 11.7 |
+| [HBF][HBF] | 11.8 |
+| MPL | 11.9 |
+| DHF | 12.4 |
+| [TFH][TFH] | 13.1 |
+| St Luke's | 13.3 |
+| Westfund | 13.6 |
+| [BUPA][BUPA] | 14.1 |
+| NIB | 16.8 |
+| GMHBA | 17.5 |
+| HCF | 18.2 |
+| Phoenix | 20.3 |
+| Navy | 21.6 |
+| CBHS | 21.6 |
+| Latrobe | 22.8 |
+| [HP][HP] | 23.9 |
+| HIF | 24.4 |
+| AUHL | 33.5 |
+| CDH | 37.5 |
+| CBHSCH | 38.8 |
+| Transport | 50.3 |
+| MOH | 61.5 |
+
+## Sources
 
 - [Operations of Private Health Insurers (Annual Report)](https://www.apra.gov.au/operations-of-private-health-insurers-annual-report)
+- [Private Health Insurance industry updates](https://www.ombudsman.gov.au/industry-and-agency-oversight/industry-updates/private-health-insurance-updates)
 
 [ACA]: https://acahealth.com.au/
 [AUHL]: https://www.australianunity.com.au/
@@ -90,3 +146,5 @@ Notes:
 [Police]: https://policehealth.com.au/
 [Mildura]: https://www.mildurahealthfund.com.au/
 [HP]: https://www.healthpartners.com.au/
+[QCH]: https://www.queenslandcountry.health/
+[TFH]: https://www.teachershealth.com.au/
